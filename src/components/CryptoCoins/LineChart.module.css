@@ -1,0 +1,116 @@
+.container{
+     display: flex;
+     margin: 20px 30px;
+     justify-content: space-evenly;
+     color: white;
+     
+   
+
+}
+
+.headings{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+}
+
+@media (max-width:1200px){
+    .headings{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:900px){
+    .headings{
+        font-size: 11px;
+    }
+}
+.headings_content{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+@media (max-width:1200px){
+    .headings_content{
+        font-size: 13px;
+    }
+}
+@media (max-width:900px){
+    .headings_content{
+        font-size: 10px;
+    }
+}
+.arrow_up{
+    vertical-align:middle;
+    fill:green;
+    font-size:20px;
+    margin-right:10px;
+
+}
+
+.arrow_down{
+    vertical-align:middle;
+    fill:red;
+    font-size:20px;
+    margin-right:10px;
+    
+}
+.line_chart{
+  
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid white;
+    padding: 20px 20px;
+    background-color: #020029;
+}
+
+
+
+.timeSelector{
+    display:flex;
+    justify-content:flex-end;
+    font-size:20px;
+    font-weight:600;
+    color:#8194a5;
+    list-style:none;
+    background-color:#020029;
+}
+.timeSelectorItem{
+    color:white;
+    font-size:20px;
+    margin-left: 25px;
+    background-color: transparent;
+    border: none;
+}
+.timeSelector li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+@media (max-width:1200px){
+    .timeSelectorItem{
+        font-size: 18px;
+       
+    }
+}
+
+@media (max-width:900px){
+    .timeSelectorItem{
+        font-size: 15px;
+    }
+}
+
+
+ button:hover{
+     color:#FFFADA;
+     text-decoration: underline;
+ }
+
+ .timeSelector li a:hover{
+    color:#FFFADA;
+    text-decoration: underline;
+ }
+
+ 

@@ -1,0 +1,95 @@
+
+.exchangesContainer{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50px;
+  
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+   
+    
+  }
+
+
+  th, td {
+   
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    
+   
+  }
+
+ 
+  td{
+      width:15%;
+      cursor: pointer;
+      text-align: right;
+  }
+
+  @media (max-width:1200px){
+    td{
+      font-size: 14px;
+    }
+  }
+
+
+  th{
+      padding: 15px 0;;
+      background: #DEA057;
+      border-top: 1px solid #ddd;
+      text-align: right;
+
+  }
+
+  @media (max-width:900px){
+    td{
+      font-size: 12px;
+    }
+  }
+
+  
+  tr:hover td span  {
+      background-color:white;
+      color:black;
+     
+  }
+
+
+  .crypto_image{
+      width: 27px;
+      height: 27px;
+      margin: 0 20px;
+      vertical-align:middle;
+      background-color: transparent;
+  }
+
+  .coin_name{
+    height:82px;
+    vertical-align:middle;
+  }
+  .space_right{
+    padding-right: 5px;
+  }
+.expandable > td{
+  margin: 20px;
+}
+
+.badge{
+  background-color:white;
+  color:black;
+  width:80px;
+  padding:5px 20px;
+  border-radius:8px;
+}
+
+.box{
+  display: flex;
+}
+
+.text_left{
+  text-align: left;
+}

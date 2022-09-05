@@ -1,0 +1,117 @@
+h1{
+    color: white;
+}
+
+.coins_container{
+    margin: 0 auto;
+    width: 90%;
+    margin-top:50px;
+
+}
+
+
+
+.header{
+    color: white;
+    font-weight: 700;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+   
+    
+  }
+
+ 
+  th, td {
+   
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+   
+  }
+
+ 
+  td{
+      width:15%;
+      cursor: pointer;
+  }
+  th{
+      padding: 15px 0;
+      background: #DEA057;
+      border-top: 1px solid #ddd;
+
+  }
+
+  @media (max-width:900px){
+      th,td{
+          font-size: 12px;
+
+      }
+  }
+
+  
+ 
+ 
+  tr:hover td  a  {
+      background-color:white;
+      color:black;
+     
+  }
+
+  td:hover a:hover {
+    text-decoration: underline;
+    color: #413F42;
+}
+
+.image_box{
+    display: flex;
+}
+
+  .crypto_image{
+      width: 27px;
+      height: 27px;
+      margin: 0 20px;
+      vertical-align:middle;
+      background-color: transparent;
+  }
+
+  tr:hover .crypto_image {
+    background-color:white;
+}
+  .coin_name{
+    height:82px;
+    vertical-align:middle;
+  }
+
+
+
+  .text_right{
+      text-align: right;
+  }
+
+  .text_left{
+      text-align: left;
+  }
+
+  td:hover a:hover {
+    text-decoration: underline;
+    color: #413F42;
+}
+
+.badge_green{
+    background-color:#42855B;
+    color:black;
+    padding:5px 5px;
+    border-radius:8px;
+  }
+
+  .badge_red{
+    background-color:#990000;
+    color:black;
+    padding:5px 5px;
+    border-radius:8px;
+  }

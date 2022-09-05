@@ -1,0 +1,180 @@
+.global_stats_container{
+    background-color: #00001C;
+    height: 100%;
+    color: white;
+    margin: -25px;
+}
+  
+
+h1{
+    display: flex;
+    justify-content: center;
+padding: 20px;    
+}
+
+@media (max-width:900px){
+    h1{
+        font-size: 20px;
+        
+    }
+}
+
+
+
+
+.global_stats{
+    display:flex;
+    justify-content:space-evenly;
+    margin:10px;
+    align-items: center;
+    width: 100%;;
+
+}
+
+
+.stats_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex:0 0 27%;  
+
+}
+
+
+.stats{
+    margin-top: -10px;    
+    font-size: 16px;
+  
+  
+}
+.headings{
+    font-size: 16px;
+
+}
+@media (max-width:900px){
+    .headings, .stats{
+     font-size: 12px;
+     
+     
+ }
+}
+
+.coins_container{
+    margin: 0 50px;
+   
+    margin-top:50px;
+    
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+    
+    
+    
+  }
+
+  
+
+
+  
+  th, td {
+ 
+    border-bottom: 1px solid #ddd;
+    overflow-x: hidden;
+   
+} 
+ th{
+      background: #DEA057;
+      
+  }
+
+  td{
+    padding: 25px 10px;
+    font-size: 14px;
+  }
+  
+
+@media (max-width:900px){
+    td,th{
+        font-size:12px;
+        padding: 15px 8px;
+    }
+        
+    }
+
+    @media (max-width:600px){
+        td{
+            padding: 10px 6px;
+            font-size: 10px;
+        }
+        th{
+            font-size: 10px;
+           
+        }
+        
+      
+    }
+
+
+  tr:hover td {
+      background-color:white;
+      color:black;
+  }
+
+
+
+
+.space{
+    padding-left: 10px;
+}
+
+.table_header{
+    font-weight: 700;
+}
+
+.coin_name:hover{
+    background-color: white;
+    color:black;
+}
+
+tr:hover a{
+    background-color: transparent;
+    color: black;
+}
+
+.text_right{
+    text-align: right;
+}
+
+.text_left{
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+td:hover a:hover {
+    text-decoration: underline;
+    color: #413F42;
+}
+
+.badge_green{
+    background-color:#42855B;
+    color:black;
+    width:80px;
+    padding:5px 7px;
+    border-radius:8px;
+  }
+
+  .badge_red{
+    background-color:#990000;
+    color:black;
+    width:80px;
+    padding:5px 7px;
+    border-radius:8px;
+  }
+
+ 
