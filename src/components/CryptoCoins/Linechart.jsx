@@ -1,15 +1,16 @@
 import React, {useState}from "react";
 import { Line } from "react-chartjs-2";
+import { Chart, registerables } from 'chart.js';
 import classes from './LineChart.module.css';
 import {HiArrowNarrowDown} from 'react-icons/hi';
 import {HiArrowNarrowUp} from 'react-icons/hi';
 import { useGetCoinHistoryQuery} from "../../Services/cryptoApi";
 import { useSearchParams } from "react-router-dom";
 import { NavLink} from "react-router-dom";
+Chart.register(...registerables);
 
 const Linechart = ({coinId,coinPrice,coinMarketCap,coinVolume}) => {
 
-    
     const [timeStats,setTimeStats] = useState('24h');
     const [searchParams] = useSearchParams();
     const period = searchParams.get('period');
